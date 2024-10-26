@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.5.0](https://github.com/officialpycasbin/django-casbin-auth/compare/v1.4.0...v1.5.0) (2024-10-26)
+
+
+### Features
+
+* update path ([dadc6b2](https://github.com/officialpycasbin/django-casbin-auth/commit/dadc6b2b4613cd8300e42806d3efdb7a4ea45330))
+
 # [1.4.0](https://github.com/officialpycasbin/django-casbin-auth/compare/v1.3.0...v1.4.0) (2024-04-24)
 
 
