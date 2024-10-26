@@ -1,8 +1,8 @@
 [project]
-name = "django-authorization"
+name = "django-casbin-auth"
 version = "1.4.0"
 authors = [
-    {name = "JonLee", email = "leeqvip@gmail.com"},
+    {name = "Casbin", email = "admin@casbin.org"},
 ]
 description = "An authorization library that supports access control models like ACL, RBAC, ABAC in Django"
 readme = "README.md"
@@ -32,7 +32,7 @@ classifiers = [
 ]
 
 [project.urls]
-Home-page = "https://github.com/pycasbin/django-authorization"
+Home-page = "https://github.com/officialpycasbin/django-casbin-auth"
 
 [build-system]
 requires = ["setuptools"]

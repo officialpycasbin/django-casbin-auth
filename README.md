@@ -1,18 +1,18 @@
-# Django Authorization
+# Django Casbin Auth
 
-[![tests](https://github.com/pycasbin/django-authorization/actions/workflows/release.yml/badge.svg)](https://github.com/pycasbin/django-authorization/actions/workflows/release.yml)
-[![Coverage Status](https://coveralls.io/repos/github/pycasbin/django-authorization/badge.svg?branch=master)](https://coveralls.io/github/pycasbin/django-authorization?branch=master)
-[![Version](https://img.shields.io/pypi/v/django-authorization.svg)](https://pypi.org/project/django-authorization/)
-[![Download](https://img.shields.io/pypi/dm/django-authorization.svg)](https://pypi.org/project/django-authorization/)
+[![tests](https://github.com/officialpycasbin/django-casbin-auth/actions/workflows/release.yml/badge.svg)](https://github.com/officialpycasbin/django-casbin-auth/actions/workflows/release.yml)
+[![Coverage Status](https://coveralls.io/repos/github/officialpycasbin/django-casbin-auth/badge.svg?branch=master)](https://coveralls.io/github/officialpycasbin/django-casbin-auth?branch=master)
+[![Version](https://img.shields.io/pypi/v/django-casbin-auth.svg)](https://pypi.org/project/django-casbin-auth/)
+[![Download](https://img.shields.io/pypi/dm/django-casbin-auth.svg)](https://pypi.org/project/django-casbin-auth/)
 [![Discord](https://img.shields.io/discord/1022748306096537660?logo=discord&label=discord&color=5865F2)](https://discord.gg/S5UjpzGZjN)
 
-Django-authorization is an authorization library for Django framework.
+django-casbin-auth is an authorization library for Django framework.
 
 Based on [Casbin](https://github.com/casbin/pycasbin) and [Django-casbin](https://github.com/pycasbin/django-casbin) (middleware, light weight of this plugin), an authorization library that that supports access control models like ACL, RBAC, ABAC.
 
 ![image](https://user-images.githubusercontent.com/75596353/188881538-a6a99cb1-c88b-4738-bf4f-452be4fb7c2d.png)
 
-- [Django Authorization](#django-authorization)
+- [Django Casbin Auth](#django-casbin-auth)
   * [Installation and Configure](#installation-and-configure)
   * [Usage](#usage)
     + [Some Important Concepts:](#some-important-concepts-)
@@ -24,7 +24,7 @@ Based on [Casbin](https://github.com/casbin/pycasbin) and [Django-casbin](https:
 ## Installation and Configure
 
 ```
-pip install django-authorization
+pip install django-casbin-auth
 ```
 
 We recommend that you first configure the adapter for persistent storage of the policy, such as: 
@@ -67,7 +67,7 @@ DAUTHZ = {
 }
 ```
 
-to better prompt the configure method of django-authorization, we made a django-app based on django-authorization, you can see it in [django-authorization-example](https://github.com/pycasbin/django-authorization-example)
+to better prompt the configure method of django-casbin-auth, we made a django-app based on django-casbin-auth, you can see it in [django-casbin-auth-example](https://github.com/officialpycasbin/django-casbin-auth-example)
 
 ## Usage
 
@@ -78,7 +78,7 @@ such as .conf file, policy, sub, obj, act, please refer to the [casbin website](
 ### Middleware Usage
 
 ```python
-# Install middleware for django-authorization as required
+# Install middleware for django-casbin-auth as required
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
