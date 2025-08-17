@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.7.0](https://github.com/officialpycasbin/django-casbin-auth/compare/v1.6.0...v1.7.0) (2025-08-17)
+
+
+### Features
+
+* upgrade semantic-release-pypi to fix the release error ([#2](https://github.com/officialpycasbin/django-casbin-auth/issues/2)) ([ddcfc94](https://github.com/officialpycasbin/django-casbin-auth/commit/ddcfc94568a5d14daa9a1df01543dc9e06d86462))
+
 # [1.6.0](https://github.com/officialpycasbin/django-casbin-auth/compare/v1.5.0...v1.6.0) (2025-08-15)
 
 
