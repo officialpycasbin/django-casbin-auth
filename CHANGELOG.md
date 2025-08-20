@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.8.0](https://github.com/officialpycasbin/django-casbin-auth/compare/v1.7.0...v1.8.0) (2025-08-20)
+
+
+### Features
+
+* fix README badges ([#3](https://github.com/officialpycasbin/django-casbin-auth/issues/3)) ([312e5ce](https://github.com/officialpycasbin/django-casbin-auth/commit/312e5ced9884806a8b0ba45fee8b1690a79c2597))
+
 # [1.7.0](https://github.com/officialpycasbin/django-casbin-auth/compare/v1.6.0...v1.7.0) (2025-08-17)
 
 
