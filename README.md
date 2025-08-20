@@ -3,7 +3,7 @@
 [![tests](https://github.com/officialpycasbin/django-casbin-auth/actions/workflows/release.yml/badge.svg)](https://github.com/officialpycasbin/django-casbin-auth/actions/workflows/release.yml)
 [![Coverage Status](https://coveralls.io/repos/github/officialpycasbin/django-casbin-auth/badge.svg?branch=master)](https://coveralls.io/github/officialpycasbin/django-casbin-auth?branch=master)
 [![Version](https://img.shields.io/pypi/v/django-casbin-auth.svg)](https://pypi.org/project/django-casbin-auth/)
-[![Download](https://img.shields.io/pypi/dm/django-casbin-auth.svg)](https://pypi.org/project/django-casbin-auth/)
+[![Download](https://static.pepy.tech/badge/django-casbin-auth)](https://pypi.org/project/django-casbin-auth/)
 [![Discord](https://img.shields.io/discord/1022748306096537660?logo=discord&label=discord&color=5865F2)](https://discord.gg/S5UjpzGZjN)
 
 django-casbin-auth is an authorization library for Django framework.
